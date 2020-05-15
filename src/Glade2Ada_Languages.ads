@@ -104,10 +104,10 @@ package Glade2Ada_Languages is
    Lan_Print_Option   : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Print Options"), To_Unbounded_String("Print Opties"),
       To_Unbounded_String("Options d'impression"), To_Unbounded_String("Druckoptionen"),
-      To_Unbounded_String("Opciones de impresión"));
+      To_Unbounded_String("Opciones de impresiÃ³n"));
    Lan_Properties     : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Properties"), To_Unbounded_String("Eigenschappen"),
-      To_Unbounded_String("Propriétés"), To_Unbounded_String("Eigenschaften"),
+      To_Unbounded_String("PropriÃ©tÃ©s"), To_Unbounded_String("Eigenschaften"),
       To_Unbounded_String("Propiedades"));
    Lan_Language       : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Languages"), To_Unbounded_String("Talen (Languages)"),
@@ -127,15 +127,15 @@ package Glade2Ada_Languages is
       To_Unbounded_String("Dupdo"));
    Lan_Paste          : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Paste"), To_Unbounded_String("Plakken"),
-      To_Unbounded_String("Coller"), To_Unbounded_String("Einfügen"),
+      To_Unbounded_String("Coller"), To_Unbounded_String("EinfÃ¼gen"),
       To_Unbounded_String("Pegar"));
    Lan_Delete         : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Delete"), To_Unbounded_String("Verwijderen"),
-      To_Unbounded_String("Effacer"), To_Unbounded_String("Löschen"),
+      To_Unbounded_String("Effacer"), To_Unbounded_String("LÃ¶schen"),
       To_Unbounded_String("Effacer"));
    Lan_About          : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("About"), To_Unbounded_String("Over"),
-      To_Unbounded_String("Sur"), To_Unbounded_String("Über"),
+      To_Unbounded_String("Sur"), To_Unbounded_String("Ãœber"),
       To_Unbounded_String("Acerca de"));
 
    --Buttons
@@ -149,7 +149,7 @@ package Glade2Ada_Languages is
       To_Unbounded_String("Cancelar"));
    Lan_Open_But       : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Open"), To_Unbounded_String("Open"),
-      To_Unbounded_String("Ouvrir"), To_Unbounded_String("Öffnen"),
+      To_Unbounded_String("Ouvrir"), To_Unbounded_String("Ã–ffnen"),
       To_Unbounded_String("Abierto"));
    Lan_Save_but       : constant array(GB_USA .. ES) of Unbounded_String :=
      (To_Unbounded_String("Save"), To_Unbounded_String("Opslaan"),
